@@ -1,0 +1,51 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo y fuente general */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffe259, #ffa751); /* De amarillo a naranja */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  color: #1a1a1a;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Botones llamativos */
+button {
+  background-color: #00c3ff; /* Azul brillante */
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff00d4; /* Rosa vibrante al pasar el mouse */
+}
+
+/* Secciones */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Imágenes */
+img {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
